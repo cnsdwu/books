@@ -1,0 +1,259 @@
+/*主页面*/
+.main-wrapper {
+    /*margin-bottom: 40px;*/
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 900px;
+}
+
+.wrapper .article {
+    float: right;
+    margin-left: 20px;
+    box-sizing: border-box;
+    width: 900px;
+    padding-bottom: 100px;
+}
+/*标题*/
+.middle-title-wrap {
+    width: 100%;
+    line-height: 65px;
+    padding: 0 30px;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+.middle-title-wrap .middle-title {
+    font-size: 16px;
+    color: #444;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+/*图书信息*/
+.upload-con-box {
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.upload-con-title {
+    color: #444444;
+    font-size: 14px;
+    height: 52px;
+    line-height: 52px;
+    padding: 0 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+.wrapper .article .work-verify {
+    padding: 30px;
+}
+.upload-among-space {
+    margin-top: 40px;
+}
+.work-selectbox {
+    margin-top: -7px;
+    margin-bottom: -4px;
+}
+.work-selectbox > ul {
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+.wrapper .article .work-selectbox > ul > li {
+    margin-left: 20px;
+}
+.work-selectbox > ul > li {
+    color: #444444;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+ul li {
+    list-style-type: none;
+}
+
+.ueditor,.edui-editor{
+    width: 100% !important;
+    height: 200px;
+}
+.uploadBook input{
+    display: none;
+}
+.bookList p,.coverList p{
+    display: inline-block;
+    flex: 4;
+    overflow: hidden;
+    margin: auto;
+}
+.bookList s,.coverList s{
+    flex: 2;
+    text-decoration: none;
+    margin: auto;
+}
+.aUploadBook,.aUploadCover,.submit{
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    background: #55c3dc;
+    border: 1px solid #55c3dc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+.submit{
+    margin-bottom: 30px;
+}
+input{
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 42px;
+    color: #666;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    background: #f4f4f4;
+}
+textarea{
+    display: none;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f4f4f4;
+}
+.category{
+    background: #f4f4f4;
+    display: inline-block;
+    height: 100%;
+    margin-top: 5px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.category span{
+    padding-right: 10px;
+}
+select{
+    /*margin-top: 5px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    /*border-radius: 4px;*/
+    /*width: 100%;*/
+    height: 42px;
+    color: #666;
+    font-size: 1em;
+    border-left: 1px solid #ddd;
+    background: #f4f4f4;
+    border-top: 0;
+}
+.uploadError{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10000;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+.uploadError div{
+    padding: 10px;
+    font-size: 1.2em;
+}
+input[type='file']{
+    display: none;
+}
+.submit{
+    position: absolute;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bookList span,.coverList span{
+    cursor: pointer;
+    float: right;
+    color: red;
+    flex: 1;
+    margin: auto;
+}
+.bookList,.coverList{
+    background: #f4f4f4;
+    padding: 0 20px;
+}
+.bookList div,.coverList div{
+    border-top:1px solid #ddd; 
+    padding: 10px 0;
+    display: flex;
+}
+.bookList progress,.coverList progress{
+    flex: 3;
+    margin: auto 10px;
+}
+.tag{
+    position: relative;
+}
+.tag input{
+    padding-right: 80px;
+}
+.tag>span{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 42px;
+    color: red;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+    cursor: pointer;
+    /*transform: translateX(-120%);*/
+    /*width: 50%;*/
+}
+.tag>p>span{
+    /*border: 1px solid #ddd;*/
+    background: #f4f4f4;
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    height: 1em;
+    line-height: 1em;
+    font-size: 0.8em;
+    margin-right: 5px;
+    /*cursor: pointer;*/
+}
+.tag>p>span>s{
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-decoration: none;
+    /*border-left: 1px solid #ddd;*/
+
+}
+.w-e-text{
+    overflow: auto;
+}

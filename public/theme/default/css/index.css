@@ -1,0 +1,213 @@
+.card-box {
+    /*float: left;*/
+    position: relative;
+    /*background: #fff;*/
+    border-radius: 4px;
+    /*margin: 0 20px 20px 0;*/
+    width: 96px;
+    display: inline-block;
+    margin: 20px 15px 10px;
+    /*border: 1px solid #ddd;*/
+    font-size: 0.7em;
+}
+.card-box:hover{
+    /*background: rgba(87,206,235,0.3);*/
+    opacity: 0.8;
+    color: #55c3dc;
+}
+.card-img{
+    width: 96px;
+    height: 128px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+    /*background: #fff;*/
+    box-shadow: 5px 5px 20px #888888;
+}
+.card-info{
+    border-bottom: 1px solid #eee;
+    padding: 11px 5px 5px;
+    height: 75px;
+    position: relative;
+}
+.card-item{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 16px;
+    font-size: 12px;
+    position: relative;
+}
+.card-img img{
+    width: 96px;
+    height: 128px;
+    vertical-align: middle;
+    border: none;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    /*-webkit-transition: .1s;*/
+    transition: .1s;
+    display: block;
+    background: #f4f4f4;
+    
+}
+.card-img img:hover{
+    opacity: 0.5;
+}
+.card-info-title a{
+    margin-bottom: 1px;
+    position: relative;
+    height: 36px;
+    line-height: 18px;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.9em;
+    text-decoration: none;
+
+}
+.card-info-title a:hover{
+    color: red;
+}
+.card-info-category{
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 17px;
+    height: 18px;
+}
+.card-info-author{
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 7px;
+}
+.card-info-item{
+    font-size: 12px;
+    color: #bbb;
+    position: absolute;
+    bottom: 14px;
+}
+.list-box{
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
+.all-list-box{
+        width: 1200px;
+            margin: 20px auto -20px;
+}
+
+html,body,.all-list-box,.list-box{
+    height: 100%;
+}
+.pagination{
+    top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40px;
+    display: block;
+    width: 100%;
+    /*height: */
+    text-align:center;
+}
+.pagination li{
+    display: inline-block;
+    width: 40px;
+    height: 40;
+    /*float: left;*/
+    line-height: 38px;
+    margin: 0 3px;
+    box-sizing: border-box;
+    background: #fff;
+    list-style: none;
+    font-size: 1.2em;
+}
+.pagination li:hover{
+    background: red;
+}
+.pagination li.disabled{
+    background: #fff;
+}
+.pagination li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #000;
+
+}
+a{
+    text-decoration: none;
+}
+li.page-item.active{
+    background: red;
+    cursor: pointer;
+}
+.subnav-content-wrap {
+    width: 100%;
+    min-height: 56px;
+    background-color: #fff;
+}
+.subnav-wrap {
+    background: #fff;
+    box-sizing: border-box;
+}
+.subnav-wrap .top-hull {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.subnav-wrap .subnav-contentbox {
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.subnav-wrap .subnav-contentbox .subnav-content {
+    margin-bottom: -1px;
+    font-size: 16px;
+    color: #999;
+}
+.text-center {
+    text-align: center;
+}
+.subnav-wrap .subnav-contentbox .subnav-content>li {
+    padding: 0 30px;
+    line-height: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    position: relative;
+}
+ul li {
+    list-style-type: none;
+}
+.subnav-wrap .subnav-contentbox .subnav-content>li>a:hover {
+    color: #55c3dc;
+    border-bottom: 2px solid #444;
+}
+.subnav-wrap .subnav-contentbox .subnav-content>li>a {
+    padding: 19px 0;
+    display: block;
+    border-bottom: 2px solid transparent;
+}
+a:hover, a, a:hover {
+    text-decoration: none;
+}
+.album-card-box {
+    float: left;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 20px 20px 0;
+}
+.album-card-box .card-item .time, .card-box .card-item .time {
+    float: right;
+}
+.coverimg{
+    display: none;
+}

@@ -1,0 +1,318 @@
+.main-wrapper {
+    margin-bottom: 40px;
+    display: block;
+    height: 100%;
+}
+.content{
+    max-width: 1130px;
+    width: 1130px;
+    position: relative;
+    margin: 20px auto 0;
+    height: 100%;
+}
+.work-details-content {
+    /*max-width: 850px;*/
+    background: #ffffff;
+    box-sizing: border-box;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    /*height: 100%;*/
+
+}
+.left-details-head {
+    background: #ffffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.details-contitle-box {
+    height: 240px;
+    padding: 20px 30px 30px 30px;
+}
+.details-contitle-box h2 {
+    color: #333333;
+    font-size: 2.1em;
+    font-weight: normal;
+    display: inline-block;
+}
+.details-contitle-box .title-time {
+    padding-top: 8px;
+    font-size: 14px;
+    color: #bbbbbb;
+    position: absolute;
+    bottom: 0;
+}
+.details-contitle-box .work-head-box {
+    padding-top: 9px;
+    margin: 20px 0;
+}
+.details-contitle-box .work-head-box .head-left {
+    /*float: left;*/
+}
+.details-contitle-box .work-head-box .head-right {
+    /*float: right;*/
+    overflow: hidden;
+}
+.details-contitle-box .work-head-box .head-index {
+    /*font-size: 14px;*/
+    /*color: #bbbbbb;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*zoom: 1;*/
+}
+.details-contitle-box .work-head-box .head-data-show {
+    margin-right: -27px;
+    /*float: right;*/
+}
+.details-contitle-box .see, .details-contitle-box .news, .details-contitle-box .recommend-show {
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    /*padding-left: 25px;*/
+    padding-right: 27px;
+    /*margin-left: 27px;*/
+    color: #bbbbbb;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-position: left 0;
+    float: left;
+    position: relative;
+    cursor: default;
+}
+ .see i {
+    width: 16px;
+    height: 16px;
+    background-image: url(/images/card-liulan.svg?v=1);
+    margin-top: -5.5px;
+}
+.details-contitle-box>span{
+    float: left;
+    margin-right: 25px;
+}
+.details-contitle-box>span>img{
+    width: 180px;
+    height: 240px;
+}
+
+.comment-module{
+    width: 100%;
+    background: #fff;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse:collapse;
+    text-align: center;
+    vertical-align: center;
+}
+table,th, td{
+    border: 1px solid blue;
+}
+table th{
+    background: #87CEEB;
+    color: #fff;
+}
+table tr.odd{
+    background: rgba(87,206,235,0.3);
+}
+.book-content{
+    width: 100%;
+    background: #fff;
+}
+.book-content-title{
+    width: 100%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    /*margin: 20px 0;*/
+    padding: 20px 0;
+}
+.book-content-info{
+    padding: 30px;
+}
+.coverimg{
+    display: none;
+}
+.details-contitle-box>div{
+    float: left;
+    height: 240px;
+    position: relative;
+    width: 850px;
+}
+.author{
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-weight: 500;
+}
+.head-right{
+    margin: 10px 0;
+}
+.post-info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.post-info>span{
+    margin-left: 10px;
+}
+.admire-box{
+    position: relative;
+}
+.admire-box-div:hover{
+    opacity: 1;
+    background: #fff;
+}
+.admire-box-div{
+    width: 118px;
+    height: 72px;
+    border-radius: 36px;
+    background: #fff;
+    opacity: 0.8;
+    position: relative;
+    left: 50%;
+    margin: 50px 0;
+    transform: translateX(-50%);
+}
+
+.admire-box-div img{
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+ul li{
+    /*list-style: none;*/
+}
+.comment-box{
+    /*padding: 10px 10px;*/
+    margin-bottom: 50px; 
+    position: relative;
+}
+.comment-box-content{
+    /*margin: 20px 0 0;*/
+    /*background: #fff;
+    position: relative;
+    padding-left: 80px;
+    min-height: 90px;*/
+}
+.comment-box-content-info{
+    /*float: left;*/
+    /*display: inline-block;*/
+    margin-top: 10px;
+}
+.comment-box-content-info-author{
+    display: inline-block;
+    font-weight: 900;
+}
+.comment-box-content-time{
+    margin-left: 30px;
+    color: #bbb;
+    font-size: 0.8em;
+}
+.comment-box-content-head{
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 48px;
+    height: 48px;
+    /*background: red;*/
+    margin-left: 20px;
+}
+.comment-box-content-head img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.comment-box-textarea{
+    /*border-bottom: 1px solid #ccc;*/
+}
+.comment-box-content-info-content{
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9em;
+    word-wrap: break-word;
+    margin-right: 20px;
+}
+.comment-box-content-info-item{
+    /*position: absolute;*/
+    /*right: 40px;*/
+    /*bottom: 10px;*/
+    margin: 10px 40px;
+    text-align: right;
+}
+.comment-box-content-info-item>span{
+    margin-left: 20px;
+}
+.comment-box-content>ul>li{
+    background: #fff;
+    position: relative;
+    padding-left: 80px;
+    min-height: 90px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    list-style: none;
+}
+.comment-box-content-info-content-admire img:hover{
+    
+}
+.comment-box-textarea textarea{
+    display: none;
+}
+.comment-box-textarea>div>div{
+    background: #fff;
+}
+.comment-box-textarea-submit span button{
+    /*position: absolute;*/
+    margin: 20px 0;
+    /*margin-bottom: 50px;*/
+    /*left: 50%;*/
+    /*transform: translateX(-50%);*/
+    color: #444;
+    background: #55c3dc;
+    border: 1px solid #55c3dc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 103px;
+    height: 36px;
+    margin-right: 10px;
+}
+.comment-box-textarea .w-e-text{
+    overflow: auto;
+}
+.over a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: blue;
+}
+.over a:hover{
+    background: #eee;
+    color: red;
+}
+.uploadBook{
+    background: #55c3dc;
+    color: #fff;
+    cursor: pointer;
+}
+.uploadBook:hover{
+    color: red;
+}
+.upload input{
+    display: none;
+}
+table td.start, table td.del{
+    cursor: pointer;
+    color: blue;
+}
+table td.start:hover, table td.del:hover{
+    color: red;
+}
+.uploader{
+    color: #999;
+    font-size: 0.9em;
+}

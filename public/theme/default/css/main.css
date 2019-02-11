@@ -1,0 +1,19 @@
+a, body, button, caption, dd, div, dl, dt, em, figure, form, h1, h2, h3, h4, h5, h6, html, i, img, input, label, li, ol, p, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+    background: #f4f4f4;
+    min-width: 1200px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}

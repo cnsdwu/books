@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>点赞hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-765.000000, -323.000000)">
+            <g id="点赞hover" transform="translate(765.000000, 322.000000)">
+                <g id="图层_1">
+                    <path d="M11.1,14.6 L2.7,14.6 C1.2,14.6 0,13.4 0,11.9 L0,8 C0,6.5 1.2,5.3 2.7,5.3 L5.1,5.3 C5.4,5.2 6.5,4.7 6.7,3.1 C7,1.3 8.1,1 8.5,1 C9.3,0.9 10.2,1.6 10.3,2.1 C10.5,2.7 10.6,3.7 10.2,5.3 L11.1,5.3 C12.6,5.3 13.8,6.5 13.8,8 L13.8,11.8 C13.8,13.4 12.6,14.6 11.1,14.6 L11.1,14.6 Z" id="XMLID_4_" fill="#FFD100"></path>
+                    <path d="M3.3,13 C3,13 2.8,12.8 2.8,12.5 L2.8,7.4 C2.8,7.1 3,6.9 3.3,6.9 C3.6,6.9 3.8,7.1 3.8,7.4 L3.8,12.5 C3.8,12.8 3.6,13 3.3,13 L3.3,13 Z" id="XMLID_2_" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
